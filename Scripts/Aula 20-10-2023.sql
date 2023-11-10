@@ -58,3 +58,39 @@ TELEFONE2 CHAR(12) NOT NULL,
 PAI CHAR(50) NOT NULL,
 MAE CHAR(50) NOT NULL,
 PRIMARY KEY (ID));
+
+
+INSERT INTO ALUNOS
+( 	NOME,
+	RG,
+    CPF,
+    DATA_NASCIMENTO,
+    ENDERECO,
+    NUMERO,
+    COMPLEMENTO,
+    BAIRRO,
+    ID_CIDADE,
+    CEP,
+    TELEFONE1,
+    TELEFONE2,
+    PAI,
+    MAE) 
+VALUES 
+(	"Gabriela da Silva",
+	"17.973.898-3",
+    "147.520.609-61",
+    "1979-03-26",
+    "Rua Angelo Zugliani",
+    33,
+    "Casa",
+    "Jardim Maria Luiza",
+    5,
+    "10.584.471",
+    "29-8615-4558",
+    "29-8775-2452",
+    "Professor Josué",
+    "Anabela FErnandes Prado");
+
+
+
+
